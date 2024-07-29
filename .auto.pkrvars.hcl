@@ -1,0 +1,42 @@
+//iso_url download link : https://yum.oracle.com/ISOS/OracleLinux/OL9/u4/x86_64/OracleLinux-R9-U4-x86_64-dvd.iso
+iso_url="file:///C:/Users/hanab/Desktop/Stage Vermeg/LinuxOs/OracleLinux-R9-U4-x86_64-dvd.iso"
+iso_checksum_type="sha256"
+memory="4096"
+vram="12"
+no_proxy=""
+vm_name="newVM"
+home=""
+virtualbox_guest_os_type="Oracle_64"
+version="0.1"
+update="true"
+ssh_username="packer"
+ssh_password="packerpassword"
+ssh_fullname="packer"
+iso_checksum="77034a4945474cb7c77820bd299cac9a557b8a298a5810c31d63ce404ad13c5e"
+http_proxy=""
+https_proxy=""
+cpus="2"
+disk_size="80480"
+headless="false"
+hostname="bionic64"
+output_directory="output1/newVM"
+
+//iso_url download link : https://yum.oracle.com/ISOS/OracleLinux/OL7/u9/x86_64/OracleLinux-R7-U9-Server-x86_64-dvd.iso
+ol7_iso_url="file:///C:/Users/hanab/Desktop/Stage Vermeg/LinuxOs/OracleLinux-R7-U9-Server-x86_64-dvd.iso"
+ol7_iso_checksum="28d2928ded40baddcd11884b9a6a611429df12897784923c346057ec5cdd1012"
+//iso_url download link : https://access.cdn.redhat.com/content/origin/files/sha256/9b/9b3c8e31bc2cdd2de9cf96abb3726347f5840ff3b176270647b3e66639af291b/rhel-8.10-x86_64-dvd.iso?user=1401d69e48ed7e2eafbf339dce09c861&_auth_=1722124645_3c8ed39e15c7944165335dd41bd5f874
+rhel8_iso_url="file:///C:/Users/hanab/Desktop/Stage Vermeg/RedHat/rhel-8.10-x86_64-dvd.iso"
+rhel8_iso_checksum="9b3c8e31bc2cdd2de9cf96abb3726347f5840ff3b176270647b3e66639af291b"
+//iso_url download link : https://access.cdn.redhat.com/content/origin/files/sha256/39/398561d7b66f1a4bf23664f4aa8f2cfbb3641aa2f01a320068e86bd1fc0e9076/rhel-9.4-x86_64-dvd.iso?_auth_=1722161092_6bdc3a2a0b853f7848ce38ead6e047dd
+rhel9_iso_url="file:///C:/Users/hanab/Desktop/Stage Vermeg/RedHat/rhel-9.4-x86_64-dvd.iso"
+rhel9_iso_checksum="398561d7b66f1a4bf23664f4aa8f2cfbb3641aa2f01a320068e86bd1fc0e9076"
+//iso_url download link : https://yum.oracle.com/ISOS/OracleLinux/OL8/u10/x86_64/OracleLinux-R8-U10-x86_64-dvd.iso
+ol8_iso_url="file:///C:/Users/hanab/Downloads/OracleLinux-R8-U10-x86_64-dvd.iso"
+ol8_iso_checksum="7676a80eeaafa16903eebb2abba147a3afe230b130cc066d56fdd6854d8da900"
+windows19_iso_url="https://software-static.download.prss.microsoft.com/pr/download/17763.737.190906-2324.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us_1.iso"
+windows19_iso_checksum="3022424f777b66a698047ba1c37812026b9714c5"
+windows22_iso_url="https://software-static.download.prss.microsoft.com/sg/download/20348.169.210806-2348.fe_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso"
+windows22_iso_checksum="4f1457c4fe14ce48c9b2324924f33ca4f0470475e6da851b39ccbf98f44e7852"// winrm_password            = "packer"
+winrm_username            = "Administrator"
+winrm_password            = "packer"
+numvcpus                  = 2
